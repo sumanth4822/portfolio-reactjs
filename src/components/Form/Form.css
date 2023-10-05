@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+
 label{
     color: #fff;
     margin-bottom: 0.5rem;
@@ -18,4 +21,96 @@ form input,form textarea{
     border-color: rgba(255,255,255,0.1);
     color: #f4f4f4;
 
+}
+
+/*MODAL*/
+.modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+:root {
+	--vs-primary: 29 92 255;
+}
+
+/*Dialog Styles*/
+dialog {
+	padding: 1rem 3rem;
+    background: url("https://img.freepik.com/free-photo/abstract-textured-backgound_1258-30461.jpg?w=740&t=st=1696531125~exp=1696531725~hmac=ec2a2e4726d999b18aeba4af0d883a0635a8e21d2f101399420a087cee92512b");
+	max-width: 400px;
+	padding-top: 2rem;
+	border-radius: 20px;
+	border: 0;
+	box-shadow: 0 5px 30px 0 rgb(0 0 0 / 10%);
+	animation: ease-in-out 1s both;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+	
+	.x {
+		filter: grayscale(1);
+		border: none;
+		background: none;
+		position: absolute;
+		top: 15px;
+		right: 10px;
+		transition: ease filter, transform 0.3s;
+		cursor: pointer;
+		transform-origin: center;
+		&:hover {
+			filter: grayscale(0);
+			transform: scale(1.1);
+		}
+	}
+	.modal-header{
+        color: #fff;
+        margin-left: 10px;
+        margin-bottom: 5px;
+		font-weight: 600;
+		font-size: 1rem;
+	}
+	.modal-footer {
+        color: #fff;
+		font-size: 1rem;
+		line-height: 1.3rem;
+		padding: 0.5rem 0;
+		
+	}
+}
+
+.success-img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+/*General Styles*/
+
+button.primary {
+	display: inline-block;
+	font-size: 0.8rem;
+	color: #fff !important;
+	background: rgb(var(--vs-primary) / 100%);
+	padding: 13px 25px;
+	border-radius: 17px;
+	transition: background-color 0.1s ease;
+	box-sizing: border-box;
+	transition: all 0.25s ease;
+	border: 0;
+	cursor: pointer;
+	box-shadow: 0 10px 20px -10px rgb(var(--vs-primary) / 50%);
+	&:hover {
+		box-shadow: 0 20px 20px -10px rgb(var(--vs-primary) / 50%);
+		transform: translateY(-5px);
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }

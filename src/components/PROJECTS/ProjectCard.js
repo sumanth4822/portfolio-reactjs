@@ -11,9 +11,9 @@ const ProjectCard = () => {
         <div className='project-container'>
             <div className='project-card'>
                 <img src='https://images.ctfassets.net/aq13lwl6616q/3MYbjVb8bVTFANpHgIaAS3/1d3fb347958e80881e77146e08cc7c4e/20_Vanilla_JavaScript_projects.png?w=500&fm=webp' alt='ProjectIMGLoading'/>
-                <h2 className='project-title'>12 JAVASCRIPT PROJECTS</h2>
+                <h2 className='project-title'>16 JAVASCRIPT PROJECTS</h2>
                 <div className='pro-details'>
-                    <p>Here I have created 12 simple JS projects using HTML and CSS.It contains various types of projects,each different from eachother.</p>
+                    <p>Here I have created 16 simple JS projects using HTML and CSS.It contains various types of projects,each different from eachother.</p>
                 </div>
                 <div className='pro-btn'>
                     <NavLink to='https://github.com/sumanth4822/16-days-coding-challenge-html-css-js-'>
