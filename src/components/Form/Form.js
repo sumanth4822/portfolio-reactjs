@@ -27,7 +27,7 @@ const Form = () => {
         window.dialog.showModal();
         setTimeout(() => {
             window.dialog.close();
-            window.location.reload();
+            window.location.href = '/';
         },4000);
         
     }

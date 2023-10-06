@@ -37,7 +37,8 @@ form input,form textarea{
 /*Dialog Styles*/
 dialog {
 	padding: 1rem 3rem;
-    background: url("https://img.freepik.com/free-photo/abstract-textured-backgound_1258-30461.jpg?w=740&t=st=1696531125~exp=1696531725~hmac=ec2a2e4726d999b18aeba4af0d883a0635a8e21d2f101399420a087cee92512b");
+	background-color: #2d3436;
+background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
 	max-width: 400px;
 	padding-top: 2rem;
 	border-radius: 20px;
